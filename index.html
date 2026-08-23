@@ -132,6 +132,38 @@
     margin: 0 auto;
     font-size: 1.05rem;
   }
+  .shots {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 44px auto 10px;
+    padding: 4px 24px 12px;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+  }
+  .phone {
+    flex: 0 0 auto;
+    width: 232px;
+    padding: 9px;
+    background: #16120d;
+    border: 1px solid #3a3122;
+    border-radius: 40px;
+    box-shadow: 0 18px 44px rgba(0,0,0,0.55);
+    scroll-snap-align: center;
+  }
+  .phone.center { width: 256px; }
+  .phone img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 31px;
+  }
+  @media (max-width: 860px) {
+    .shots { justify-content: flex-start; }
+  }
+
   .mixologeist .platforms {
     margin-top: 18px;
     font-size: 0.9rem;
@@ -223,6 +255,11 @@
     <span class="label">Coming Soon</span><br>
     <div class="art"><img src="mixologeist.jpg" alt="The Mixologeist — ornate gold vintage lettering with cocktail shakers"></div>
     <p>Our first app is stirring. The Mixologeist is a spirited companion for the home bar — classic cocktails, impeccable technique, and a ghost of good taste guiding every pour.</p>
+    <div class="shots">
+      <div class="phone"><img src="shot-catalog.jpg" alt="Mixologeist catalog screen listing cocktails like the Aperol Spritz and Bee's Knees" loading="lazy"></div>
+      <div class="phone center"><img src="shot-featured.jpg" alt="Mixologeist featured screen showing a Martini recipe card" loading="lazy"></div>
+      <div class="phone"><img src="shot-negroni.jpg" alt="Mixologeist recipe detail for a Negroni with ingredients list" loading="lazy"></div>
+    </div>
     <div class="platforms">Coming soon to the App&nbsp;Store</div>
   </div>
 </div>
@@ -241,7 +278,7 @@
 <footer>
   <div class="wrap">
     <div>&copy; 2026 QuickOrbit Inc. All rights reserved.</div>
-    <div>Made with care for Apple platforms.</div>
+    <div>Designed in Georgia.</div>
   </div>
 </footer>
 
