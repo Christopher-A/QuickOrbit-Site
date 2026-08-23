@@ -87,6 +87,54 @@
   .card h3 { font-size: 1.05rem; margin-bottom: 8px; color: var(--ink); }
   .card p { font-size: 0.95rem; }
 
+  .mixologeist {
+    background: #0d0a08;
+    border-top: 1px solid #2a231b;
+    text-align: center;
+    padding: 72px 0;
+  }
+  .mixologeist .label {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #d8ba85;
+    border: 1px solid #4a3d2a;
+    border-radius: 999px;
+    padding: 6px 16px;
+    margin-bottom: 32px;
+  }
+  .mixologeist .art {
+    position: relative;
+    display: inline-block;
+    width: min(560px, 88%);
+    margin-bottom: 28px;
+  }
+  .mixologeist .art::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    box-shadow: inset 0 0 70px 45px #0d0a08;
+    pointer-events: none;
+  }
+  .mixologeist img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .mixologeist p {
+    color: #c9bda9;
+    max-width: 36em;
+    margin: 0 auto;
+    font-size: 1.05rem;
+  }
+  .mixologeist .platforms {
+    margin-top: 18px;
+    font-size: 0.9rem;
+    color: #8a7d68;
+  }
+
   .contact-box {
     margin-top: 24px;
     background: var(--card);
@@ -124,6 +172,7 @@
     <nav>
       <a href="#about">About</a>
       <a href="#work">What We Do</a>
+      <a href="#mixologeist">Mixologeist</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
@@ -165,6 +214,15 @@
     </div>
   </div>
 </section>
+
+<div class="mixologeist" id="mixologeist">
+  <div class="wrap">
+    <span class="label">Coming Soon</span><br>
+    <div class="art"><img src="mixologeist.jpg" alt="The Mixologeist — ornate gold vintage lettering with cocktail shakers"></div>
+    <p>Our first app is stirring. The Mixologeist is a spirited companion for the home bar — classic cocktails, impeccable technique, and a ghost of good taste guiding every pour.</p>
+    <div class="platforms">Coming soon to the App&nbsp;Store</div>
+  </div>
+</div>
 
 <section id="contact">
   <div class="wrap">
