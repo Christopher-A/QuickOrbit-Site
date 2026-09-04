@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — The Mixologeist — QuickOrbit Inc</title>
+<meta name="description" content="The Mixologeist collects no personal information. No account, no analytics, no tracking, no advertising.">
+<meta name="theme-color" content="#0b0d11">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+  :root {
+    color-scheme: dark;
+    --blue: #3f9ae6;
+    --blue-light: #cde3f5;
+    --blue-wash: #0e1521;
+    --ink: #e9eff6;
+    --ink-soft: #a3b2c4;
+    --bg: #0b0d11;
+    --card: #12161d;
+    --line: #1f2732;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 0 24px; }
+
+  header { padding: 20px 0; border-bottom: 1px solid var(--line); }
+  header .wrap { max-width: 960px; display: flex; align-items: center; justify-content: space-between; }
+  .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink); }
+  .brand img { width: 34px; height: auto; }
+  .brand span { font-weight: 700; font-size: 1.1rem; letter-spacing: -0.01em; }
+  nav a {
+    text-decoration: none; color: var(--ink-soft); font-size: 0.95rem;
+    margin-left: 24px; font-weight: 500;
+  }
+  nav a:hover { color: var(--blue); }
+
+  .title {
+    padding: 72px 0 40px;
+    background: linear-gradient(180deg, var(--blue-wash) 0%, var(--bg) 100%);
+  }
+  .title h1 {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    margin-bottom: 12px;
+  }
+  .title .updated { color: var(--ink-soft); font-size: 0.95rem; }
+
+  .lede {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--blue);
+    border-radius: 14px;
+    padding: 24px 28px;
+    margin: 40px 0 8px;
+  }
+  .lede p { color: var(--ink); font-size: 1.05rem; }
+
+  main { padding-bottom: 72px; }
+  h2 {
+    font-size: 1.25rem;
+    letter-spacing: -0.01em;
+    margin: 44px 0 14px;
+  }
+  p { color: var(--ink-soft); }
+  p + p { margin-top: 14px; }
+  ul { color: var(--ink-soft); margin: 14px 0 0 22px; }
+  li + li { margin-top: 8px; }
+  a { color: var(--blue); }
+  strong { color: var(--ink); font-weight: 600; }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 32px 0 48px;
+    font-size: 0.9rem;
+    color: var(--ink-soft);
+  }
+  footer .wrap { max-width: 960px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+
+  @media (max-width: 560px) {
+    nav a { margin-left: 16px; }
+    .title { padding: 52px 0 32px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="/">
+      <img src="mark.png" alt="QuickOrbit mark">
+      <span>QuickOrbit</span>
+    </a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/#mixologeist">Mixologeist</a>
+      <a href="/#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="title">
+  <div class="wrap">
+    <h1>Privacy Policy</h1>
+    <div class="updated">The Mixologeist · Last updated 4 September 2026</div>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+
+    <div class="lede">
+      <p><strong>The Mixologeist does not collect any information about you.</strong> There is no account to
+      create, no analytics, no advertising, and no tracking of any kind. Nothing you do in the app is sent
+      to us, and nothing about you is stored on our servers.</p>
+    </div>
+
+    <h2>What the app stores</h2>
+    <p>Everything the app keeps is either on your device or in your own iCloud account:</p>
+    <ul>
+      <li><strong>Your favourites and the recipes you write yourself</strong> are saved on your device and,
+      if you are signed in to iCloud, synced through Apple's CloudKit to your <em>private</em> iCloud
+      database. That database belongs to you. QuickOrbit cannot read it, and neither can anyone else.</li>
+      <li><strong>Small preferences</strong> — the measurement units you prefer, and bookkeeping the app
+      uses to decide whether it has earned the right to ask you for a rating — are stored locally on your
+      device and never leave it.</li>
+    </ul>
+
+    <h2>The drinks catalog</h2>
+    <p>The recipes themselves are downloaded from a public database we publish through Apple's CloudKit.
+    This is a one-way, read-only fetch: the app asks for the catalog and Apple sends it. We do not receive
+    a record of who requested it, what you searched for, or which drinks you looked at.</p>
+
+    <h2>If you write to us</h2>
+    <p>Every drink has a <strong>Report an Issue</strong> option. It opens a draft in your own mail app —
+    nothing is sent unless you choose to send it. If you do, we receive your email address, whatever you
+    wrote, and three details the draft includes to help us find the problem: the drink's name, its internal
+    identifier, and the app and iOS versions you are running.</p>
+    <p>We use that only to answer you and to fix the app. We do not add you to a mailing list, and we do
+    not share it with anyone.</p>
+
+    <h2>Third parties</h2>
+    <p>The app contains no advertising networks, no analytics services, and no third-party code that
+    collects information about you. The only outside service it uses is <strong>Apple</strong>, for iCloud
+    sync and for delivering the catalog. Your use of iCloud is governed by
+    <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+    <p>If you downloaded the app from the App Store, Apple gives us aggregate sales and usage reports.
+    Those come from Apple, are not linked to individuals, and are not something the app collects or
+    sends.</p>
+
+    <h2>Children</h2>
+    <p>The Mixologeist is about alcoholic drinks and is rated accordingly. It is not directed at children,
+    and we do not knowingly collect information from anyone — including children — because we do not
+    collect information at all.</p>
+
+    <h2>Your rights</h2>
+    <p>Because we hold no personal data, there is nothing for us to show you, correct, export, or delete.
+    The data the app does keep is yours: deleting the app removes what is on the device, and you can remove
+    what is stored in iCloud at any time from your device's iCloud settings.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, the revised version will be posted on this page with a new date at the top.
+    Material changes will also be noted in the app's release notes.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy, or about privacy in the app, can go to
+    <a href="mailto:mixologeist@quickorbit.com">mixologeist@quickorbit.com</a>.</p>
+    <p>QuickOrbit Inc, Georgia, United States.</p>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>&copy; 2026 QuickOrbit Inc. All rights reserved.</div>
+    <div>Designed in Georgia.</div>
+  </div>
+</footer>
+
+</body>
+</html>
